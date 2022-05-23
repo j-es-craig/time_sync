@@ -10,7 +10,7 @@
 
 passing the `-h` flag for any script will print its help message.
 
-running each script with no arguments will yield the expected deliverables as outlined in the PDF, i.e.:
+running each script with no arguments will yield the expected deliverables i.e.:
 
 `python .\sync.py`
 
