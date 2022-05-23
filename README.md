@@ -1,5 +1,5 @@
-# Flosonics Medical Techincal Task - Joshua Craig
-## Scripts for syncing, plotting, and analyzing flopatch and nexfin data
+# TimeSync - Joshua Craig 
+## Scripts for syncing, plotting, and analyzing blood flow data from separate monitoring devices. 
 ## There are 3 scripts in this directory: 
 
 `sync.py` will take one flopatch and one nexfin file, sync them, and output a single synced file
@@ -18,8 +18,4 @@ running each script with no arguments will yield the expected deliverables as ou
 
 `python .\analysis.py`
 
-All expected outputs are in the `expected_deliverables` folder.
-
 approximate runtime for `sync.py` is 20 - 30 minutes. 
-
-NB: flopatch data has been converted from xls to csv, and renamed `fpdata_reformat.csv`
